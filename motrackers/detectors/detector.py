@@ -100,6 +100,12 @@ class Detector:
         else:
             return False
 
+    def checkCar(self, cid):
+        if (self.object_names[cid] == 'car' or self.object_names[cid] == 'motorbike'):
+            return True
+        else:
+            return False
+
     def convertBack(self, x, y, w, h): 
         xmin = int(round(x - (w / 2)))
         xmax = int(round(x + (w / 2)))

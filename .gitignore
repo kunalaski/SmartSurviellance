@@ -2,3 +2,5 @@ weights/yolov3.weights
 weigths/yolov4.weights
 examples/pretrained_models/yolo_weights/yolov4.weights
 examples/pretrained_models/yolo_weights/yolov3.weights
+NPfiles/*
+weights/*

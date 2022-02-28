@@ -3,20 +3,6 @@ from motrackers.tracker import Tracker
 
 
 class IOUTracker(Tracker):
-    """
-    Intersection over Union Tracker.
-
-    References
-    ----------
-    * Implementation of this algorithm is heavily based on https://github.com/bochinski/iou-tracker
-
-    Args:
-        max_lost (int): Maximum number of consecutive frames object was not detected.
-        tracker_output_format (str): Output format of the tracker.
-        min_detection_confidence (float): Threshold for minimum detection confidence.
-        max_detection_confidence (float): Threshold for max. detection confidence.
-        iou_threshold (float): Intersection over union minimum value.
-    """
 
     def __init__(
             self,
